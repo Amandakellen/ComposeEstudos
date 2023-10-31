@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/destination_home">
+
+    <!-- Seu destino existente -->
+    <fragment
+        android:id="@+id/destination_home"
+        android:name="com.example.myapplication.main.view.MainActivity"
+        android:label="Home" />
+
+    <!-- Novo destino para a tela de login -->
+    <fragment
+        android:id="@+id/destination_login"
+        android:name="com.example.myapplication.login.LoginActivity"
+        android:label="Login" />
+
+    <!-- Ação para navegar da tela principal para a tela de login -->
+    <action
+        android:id="@+id/action_home_to_login"
+        app:destination="@id/destination_login" />
+
+</navigation>

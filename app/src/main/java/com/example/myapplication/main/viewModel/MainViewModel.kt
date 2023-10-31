@@ -3,9 +3,9 @@ package com.example.numaboaterapia.versionTwo.main.viewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.myapplication.MainActions
-import com.example.myapplication.MainEffects
-import com.example.myapplication.MainStates
+import com.example.myapplication.main.view.actions.MainActions
+import com.example.myapplication.main.view.effects.MainEffects
+import com.example.myapplication.main.view.states.MainStates
 import com.example.numaboaterapia.extensions.MutableSingleLiveEvent
 
 class MainViewModel(): ViewModel(), MainActions {

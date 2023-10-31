@@ -69,6 +69,7 @@ dependencies {
 
 // Jetpack Compose Material 3
     implementation("androidx.compose.material3:material3:1.0.0-alpha02")
+    implementation ("androidx.navigation:navigation-compose:2.4.0-alpha01")
 
 // Material Icons Extended
     implementation("androidx.compose.material:material-icons-extended:1.0.0-beta01")
