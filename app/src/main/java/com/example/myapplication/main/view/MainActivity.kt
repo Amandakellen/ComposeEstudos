@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.main.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
@@ -27,6 +26,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModelProvider
+import com.example.myapplication.R
 import com.example.myapplication.ui.theme.NumaBoaTheme
 import com.example.numaboaterapia.ds.CustomWhiteButton
 import com.example.numaboaterapia.versionTwo.main.viewModel.MainViewModel

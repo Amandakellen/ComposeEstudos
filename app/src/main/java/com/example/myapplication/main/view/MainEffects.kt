@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.main.view
 
 sealed class MainEffects {
     object NextScreen : MainEffects()

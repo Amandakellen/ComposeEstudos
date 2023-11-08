@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.main.view
 
 sealed class MainStates{
     data class Enabled(val isEnabled: Boolean) : MainStates()
